@@ -1,5 +1,5 @@
 export const getGifs = async (category) => {
-	const apiKey = import.meta.env.VITE_GIPHY_API_KEY;
+	const apiKey = import.meta.env.VITE_GIPHY_API;
 	if (!apiKey) {
 		throw new Error('ApiKey is not defined');
 	}
