@@ -1,5 +1,4 @@
 import React from "react";
-import "./item.css";
 
 export const GifItem = ({ title, url, id }) => {
   return (
